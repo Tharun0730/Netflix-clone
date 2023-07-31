@@ -1149,10 +1149,12 @@ footer .net {
         height: inherit;
         width: 100%;
         object-fit: contain;
-        /* padding:30px 20px 40px 30px; */
-        /* padding: 40px 130px; */
-
+        height: inherit;
+        width: 100%;
+        object-fit: contain;
+        padding: 40px 130px;
         overflow: hidden;
+        margin: 10px;
 
     }
 
