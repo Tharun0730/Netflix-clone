@@ -1025,12 +1025,42 @@ footer .net {
         letter-spacing: 2px;
         /* padding: 10px; */
     }
+    .section-Tv-two .main-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding:20px;
+    flex-direction: column;
+    width: 100%;
+    }
+    .section-Tv-two .main-container .container {
+        width:100%
+    }
+    .section-Tv-two .main-container .container-2 video {
+        height: 100%;
+        width: 100%;
+        padding: 39px 0px 176px 0px;
+}
+    .section-Tv-two .main-container .container-2 img{
+        height: 100%;
+    }
 
 
-
-
+    .questions-section {
+        padding: 10px;
+    }
+    .footer-search .contanier-1 input {
+       width: 320px;
+    }
+    .footer-search .contanier-1 {
+        flex-direction: column;
+    }
 
 }
+
 
 @media (min-width:600px) and (max-width: 960px) {
 
@@ -1047,8 +1077,10 @@ footer .net {
         height: inherit;
         width: 100%;
         object-fit: contain;
-        padding: 30px 20px 40px 30px;
+        padding: 40px 130px;
         overflow: hidden;
+        margin: 10px;
+      
 
     }
 
@@ -1149,12 +1181,10 @@ footer .net {
         height: inherit;
         width: 100%;
         object-fit: contain;
-        height: inherit;
-        width: 100%;
-        object-fit: contain;
-        padding: 40px 130px;
+        /* padding:30px 20px 40px 30px; */
+        /* padding: 40px 130px; */
+
         overflow: hidden;
-        margin: 10px;
 
     }
 
@@ -1229,3 +1259,25 @@ footer .net {
     }
 
 }
+
+
+
+/* @media (min-width:300px) and (max-width: 600px) {
+    .section-Tv-two .main-container .container-2 video {
+    height: 100%;
+    width: 100%;
+    padding: 39px 0px 176px 0px;
+
+}
+
+}
+/* @media (min-width:0px) and (max-width: 600px) {
+    .section-Tv-two .main-container .container-2 video {
+        height: 100%;
+        width: 100%;
+        padding: 0px 101px 127px 101px
+
+    
+    }
+  
+} */ 
